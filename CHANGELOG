@@ -1,0 +1,63 @@
+BTS630
+(Feburary 01, 2021)
+- Fixed bugs related to sending and recieving friend request. (Aayushi)
+- Implemented notification when user sends a friend request. (Aayushi)
+- Implemented ability for user to delete friend request. (Aayushi)
+- Updated tab for viewing friends. (Aayushi)
+
+(January 29, 2021) 
+- Implemented profile picture editor (Dharon)
+- Fixed bugs with previous Sprint editing functions (Dharon)
+
+(January 28, 2021) 
+- Implemented event details window. (Nick) 
+- Implemented remove event functionality. (Nick)
+
+(January 27, 2021)
+- Fixed bug for reloading widget when new event is added. (Nick)
+
+BTS530
+SPRINT 1
+- Created UI design for needed application windows through Figma.
+- Setup project file in Android Studio and push to GitHub.
+- Created AppBar Widget with app logo.
+- Created bottom navigation bar with window changing functionality.
+- Created Home Page widget and implemented SfCalendar Widget as a child to allow for calendar and appointment functionality.
+- Created rough Profile Page widget based off designs from Figma.
+- Created rough Settings Page widget based off designs from Figma.
+- Set up new gmail account to use with Firebase: project.trackit@gmail.com.
+- Set up Flutter & Dart plug-ins in Android Studio, and created application.
+
+SPRINT 2
+- Finished UI implementation into Android Studio for screens: Settings, Profile, Home, Notifcations, Chats, Groups
+- Added data models for users, messages, chats, groups, group chats
+- Added Login and Sign up functionality
+
+SPRINT 3
+- combined dev branches from sprint 2 into master branch
+- linked chats page to data from Cloud Firestore database
+- implemented send message functionality
+- implemented the setting page: logout and deactivate account methods
+- implemented search user feature in Notifications page
+- With account sign up, unique data created with each user model
+- added profile page for users
+- implemented buttons on profile page(edit and sign out)
+
+SPRINT 4
+- Fix error on chat screen load-up
+- Fix error only displaying 5 messages
+- Link each chat message to a chat room and to a sender user
+- Chat room should only load messages that are linked to that chat room
+- Display messages in chat room based on who is the sender/receiver
+- Change chat room UI to match rest of app
+- added profile page to overall app
+- connect edit buttons to server for user profile
+- Fix error: user is not able to search themselves up and add themselves as a friend.
+- Search result for no matching user shows "No Results" rather than a blank view
+- Current friends are now displayed in the "Friends" tab
+- Current user is able to send friend request to other users in the platform
+- User is able to recieve notifications if another user has sent them a friend request
+- User is able to accept or deny friend request
+- Finished UI implementation into Android Studio for screens: Settings, Profile, Home, Notifcations, Chats, Groups
+- Added data models for users, messages, chats, groups, group chats
+- Added Login and Sign up functionality
