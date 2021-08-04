@@ -1,5 +1,71 @@
 BTS630
-(Feburary 01, 2021)
+(April 21, 2021)
+- All data now properly loads on profile page. (Nick)
+- Edit functionality now works when information is left blank. (Nick)
+- No error on first load up. (Nick)
+- Fixed all bugs relating to forgot password and registration. (Aayushi)
+- Add password peak ability for sign-in and registration. (Aayushi)
+
+(April 20, 2021)
+- Chat Room automatically scrolls to bottom of view where most recent messages are located. (Nick)
+- Users can now only send messages to friends. (Nick)
+- Fixed bug causing recent message list to sometimes not load. (Nick)
+- Events, My Friends list, and Recent Chats now load and display on initial start up correctly. (Nick)
+- Added functionality for buttons in Settings and removed unnecessary buttons. (Nick)
+- Users can no longer share events they have not created. (Nick)
+
+(April 19, 2021)
+- Updated functionality for user's editing and removing events that have been shared to them. (Nick)
+- New implementation of My Friends list component of Notifications Widget. (Nick)
+
+(April 17, 2021)
+- Recent chats now refresh every 30 seconds. (Nick)
+- Chat widgets now use user's name instead of username. (Nick)
+
+(April 16, 2021)
+- New implementation of chat widget. (Nick)
+
+(April 15, 2021)
+- Fixed problems with event creation, loading, and sharing. (Nick)
+
+(April 12, 2021)
+- Synced calendar event share invite to show alerts to the other user, and accept invite request functionality, which adds event to the other user's calendar as well. (Aayushi)
+- Implemented alert bubble for new incoming notifications, especifically when adding a new friend. (Aayushi)
+- Implemented strict password requirement for registration of new accounts. (Aayushi)
+
+(April 9, 2021)
+- Chat widgets now properly display user profile pictures. (Nick)
+
+(April 6, 2021)
+- Events that have been shared to a user will now be displayed in green on that user's calendar. (Nick)
+
+(April 5, 2021)
+- Added functionality for sending event invitations to other users on friends list from the calendar widget. (Nick)
+
+(March 19, 2021)
+- Added a temporary accept event share button to test functionality. (Nick)
+- Created function to accept an event share request and make the needed changes to that event on the database. (Nick)
+- Altered the way that events are loaded from the database to allow for these new functionalities. (Nick)
+- Added implementation such that upon registration of a new user, storage folder is generated with a dummy image. (Aayushi)
+- Updated and optimized the notification system so all user acitivities are shown in the same page. (Aayushi)
+- Fixed image upload bug for profile picture selection where the previously uploaded picture would be the current profile picture. (Dharon)
+- Profile page now refreshes whenever any changes is made to the user's profile page. (Dharon)
+- Implemented UI Design for inviting users from the current user's friends list to events such as the invite button and the list of all the user's current friends. (Dharon)
+
+(March 18, 2021)
+- Fixed error with recent chats widget trying to display data before loading it from database. (Nick)
+- Fixed error when sending a message by waiting for proper data before trying to display message. (Nick)
+- Optimized loaded sequence for chat widgets to allow for faster loading. (Nick)
+
+(February 19, 2021)
+- Displayed profile picture in chat room of other user being messaged. (Nick)
+- Displayed profile picture of users in recent chats widget. (Nick)
+- Added edit event functionality to calendar widget. (Nick)
+- Fixed user display picture problem with images of certain shapes and orientation. (Dharon)
+- Added a popup display to show a larger version of the user's current profile picture. (Dharon)
+- Users' profile pictures are now stored in individual user folders and images now load from database storage instead of an attribute inside user entity.
+
+(February 01, 2021)
 - Fixed bugs related to sending and recieving friend request. (Aayushi)
 - Implemented notification when user sends a friend request. (Aayushi)
 - Implemented ability for user to delete friend request. (Aayushi)
