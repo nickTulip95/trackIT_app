@@ -1,3 +1,7 @@
+Code for this application is stored in a private repository. To view a demo video of the functionality of this application please visit: https://youtu.be/heUBxeCB97E
+
+
+
 # Project Description
  The purpose of this project will be to develop a social media application that is based around shared personal calendars. The app will be designed to run on Android systems. There are plenty of calendar applications that already exist, but they operate as an isolated calendar/agenda for an individual. Our application will allow external data/events from other users' calendars to be linked together allowing the app to create a shared calendar between users. This is beneficial over calendar apps that only show personal events/schedules as this app may also show the schedules of a user's friends, family, co-workers, etc...
 
